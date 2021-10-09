@@ -1,0 +1,59 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+h1, h2, h3, h4, ul, p{
+font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.mainMargin {
+    margin: 5%;
+}
+
+.nameHeader {
+    font-size: large;
+    font-weight: bold;
+}
+.navlink {
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #ffffff;
+}
+
+.mainText {
+    padding: 1%; 
+}
+
+.navlink:hover {
+    color: #dfb81c;
+}
+
+a {
+    color:#ffffff;
+}
+
+a:hover {
+    color: #dfb81c;
+}
+
+.divIcons {
+    color: #dfb81c;
+}
+
+.divIcons:hover {
+    color:#ffffff;
+}
+
+p, li, h3 { 
+    color:#ffffff;
+}
+
+ul {
+    font-size: large;
+    list-style-type: square;
+}
+

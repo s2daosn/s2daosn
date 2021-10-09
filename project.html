@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Your name here
+EMAIL: Your email here
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+   <!-- you would link to an external stylesheet here! -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+
+
+  <title>Trung's Portfolio</title>
+</head>
+
+  <body style="background-color:#222529;">
+    <div class="has-bg-img" >
+        <img class="img-fluid" src="psy2.jpg" alt="Psyduck Pokemon">
+    </div>
+
+    <div class="bg-dark py-3 my-3">
+        <div class="text-center">
+        <h1><span style="color:#dfb81c">Trung Dao</span><span style="color:#ffffff"> - </span><span style="color:#b4c1c0">Software Engineer</span></h1>
+        </div>
+    </div>
+
+    <div class="row text-center">
+            <h3><span class="navlink" onclick="window.location='index.html'">About</span><span class="navlink" onclick="window.location='experience.html'">Experience</span><span class="navlink" onclick="window.location='project.html'">Projects</span><span class="navlink" onclick="window.location='connect.html'">Contact</span></h3> 
+    </div>
+    
+    <div class="container-lg bg-dark py-3 my-3 px-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="has-bg-img" >
+                    <img class="img-fluid" src="IMG_5753.jpg" alt="Trung Dao">
+                </div>
+
+                <div class="text-center">
+                    <a href="https://github.com/101Daomations" class="text-decoration-none title-icons fa-4x divIcons">
+                      <i class="fab fa-github-alt"></i> 
+                    </a>
+                    <a href="mailto:trungmd@uci.edu" class="text-decoration-none title-icons fa-4x divIcons">
+                      <i class="fas fa-envelope"></i> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/trungmd/" class="text-decoration-none title-icons fa-4x divIcons">
+                      <i class="fab fa-linkedin"></i> 
+                    </a>
+                  </div>
+            </div>
+
+            <div class="col-md-9 border border-5 rounded mainText">
+                <h3><span style="color:#dfb81c">Projects</span></h3>
+                    <ul>
+                    <li>Minesweeper AI</li> 
+                        <ul>
+                        <li>Developed an AI that is able to clear 98% of minesweeper worlds of all difficulties in under 5 minutes</li>
+                        <li>Combined many different algorithms to cover all edge cases</li>
+                        <li>Used multiprocessing to speed up calculations and reduce run time</li>
+                        </ul>
+                    <li>UCI ICS Search Engine</li> 
+                        <ul>
+                        <li>Developed a multithreaded search engine for UCI’s school of ICS web domains with a front and back end</li>
+                        <li>Used Beautiful Soup to web scrape and parse through urls</li>
+                        <li>Made a system using Pickles to allow offloading of the inverted index to save on memory</li>
+                        </ul>
+                    <li>Nibble</li>
+                        <ul>
+                        <li>Developed an IOS app using Yelp’s REST api to simulate a dating application but for restaurants</li>
+                        <li>Worked on both the front end UI and back end functionality</li>
+                        </ul>
+                    <li>COVID Alerts</li>
+                        <ul>
+                        <li>Created an automated messaging system that provides users with daily COVID-19 updates in their county or region</li>
+                        <li>Developed the backend, processing users’ phone numbers and location and sending out messages using Twilio API</li>
+                        <li>Utilized Pandas and SQL database to process, store information and retrieve live data updates from a NYT repository</li>
+                        </ul>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
